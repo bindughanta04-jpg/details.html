@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wedding Invitation 💍</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background: #fff7f0;
+            color: #5a3030;
+            text-align: center;
+        }
+
+        .invitation {
+            min-height: 100vh;
+            padding: 35px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            max-width: 700px;
+            width: 100%;
+            background: #fff;
+            padding: 45px 25px;
+            border: 5px double #c99a5b;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .flower {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .small {
+            font-size: 18px;
+            letter-spacing: 3px;
+            color: #a66a45;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 15px 0;
+            color: #9b3d52;
+        }
+
+        .names {
+            font-size: 38px;
+            color: #b17a38;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .and {
+            font-size: 22px;
+            color: #777;
+        }
+
+        .message {
+            font-size: 18px;
+            line-height: 1.7;
+            margin: 25px auto;
+            max-width: 550px;
+        }
+
+        .details {
+            background: #fff4e8;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 25px;
+        }
+
+        .details h2 {
+            color: #9b3d52;
+            margin-bottom: 15px;
+        }
+
+        .details p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 13px 28px;
+            background: #9b3d52;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 17px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #b17a38;
+            transform: scale(1.05);
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 17px;
+            color: #8a5a45;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 35px 18px;
+            }
+
+            h1 {
+                font-size: 38px;
+            }
+
+            .names {
+                font-size: 30px;
+            }
+
+            .message {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="invitation">
+
+        <div class="card">
+
+            <div class="flower">🌸 💐 🌸</div>
+
+            <p class="small">TOGETHER WITH THEIR FAMILIES</p>
+
+            <h1>Wedding Invitation</h1>
+
+            <div class="names">
+                ARJUN
+                <div class="and">&</div>
+                PRIYA
+            </div>
+
+            <p class="message">
+                With hearts full of love and happiness,
+                we invite you to celebrate the beginning
+                of our beautiful journey together.
+            </p>
+
+            <div class="details">
+
+                <h2>💍 The Wedding</h2>
+
+                <p>📅 <b>Sunday, 15 November 2026</b></p>
+
+                <p>⏰ <b>10:30 AM onwards</b></p>
+
+                <p>📍 <b>Royal Grand Convention Hall</b></p>
+
+                <p>Hyderabad, Telangana</p>
+
+            </div>
+
+            <a href="#" class="button">
+                💌 Save The Date
+            </a>
+
+            <div class="footer">
+                We would be delighted to have you with us ❤️
+                <br><br>
+                With love,<br>
+                <b>Arjun & Priya</b>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
